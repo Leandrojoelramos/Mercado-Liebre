@@ -16,7 +16,7 @@ app.get("/register",function(req, res){
 })
 
 
-app.listen(8080,()=>{
-    console.log('¡¡ esta vivo !!');
+app.listen(process.env.PORT || 3000,()=>{
+    console.log('¡¡ esta vivo en el servidor 3000 !!');
 }) 
 
