@@ -1,9 +1,16 @@
 const express = require('express');
 const app = express();
 const path = require('path');
+const port=process.env.PORT || 8080
+const directory=path.join(__dirname,"./../public")
 
-const public = path.join(__dirname, './public');
-app.use(express.static(public))
+app.listen(port,()=>{
+    console.log("¡esta vivo!")
+})
+
+app.use(express.static(directory))
+
+
 
 app.get("/",function(req, res){
     res.sendFile(path.join(__dirname,"./views/home.html"));
@@ -14,9 +21,3 @@ app.get("/login",function(req, res){
 app.get("/register",function(req, res){
     res.sendFile(path.join(__dirname,"./views/registro.html"));
 })
-
-
-app.listen(process.env.PORT || 3000,function(){
-    console.log('¡¡ esta vivo en el servidor 3000 !!');
-}) 
-

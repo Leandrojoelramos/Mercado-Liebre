@@ -9,6 +9,10 @@
   "scripts": {
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leandrojoelramos/DH-Heroes.git"
+  },
   "author": "",
   "license": "ISC",
   "description": ""
