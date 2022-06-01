@@ -12,13 +12,14 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leandrojoelramos/DH-Heroes.git"
+    "url": "git+https://github.com/Leandrojoelramos/Mercado-Liebre.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/Leandrojoelramos/DH-Heroes/issues"
+    "url": "https://github.com/Leandrojoelramos/Mercado-Liebre/issues"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/Leandrojoelramos/Mercado-Liebre#readme",
   "description": ""
 }
