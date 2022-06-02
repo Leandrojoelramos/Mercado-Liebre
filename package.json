@@ -1,13 +1,15 @@
 {
-  "dependencies": {
-    "express": "^4.18.1",
-    "init": "^0.1.2"
-  },
-  "name": "mercado-liebre",
+  "name": "mercadoliebre",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
   },
   "devDependencies": {},
   "repository": {
@@ -18,8 +20,6 @@
   "bugs": {
     "url": "https://github.com/Leandrojoelramos/Mercado-Liebre/issues"
   },
-  "author": "",
-  "license": "ISC",
   "homepage": "https://github.com/Leandrojoelramos/Mercado-Liebre#readme",
   "description": ""
 }
